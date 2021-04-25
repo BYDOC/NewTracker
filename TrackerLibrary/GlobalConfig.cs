@@ -40,7 +40,7 @@ namespace TrackerLibrary
         public static string CnnString(string name)
         {
             //references altına assembly kısmına system.configuratiın eklenmeli
-            //comment
+
             return ConfigurationManager.ConnectionStrings[name].ConnectionString;
         }
     }
